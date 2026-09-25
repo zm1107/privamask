@@ -1,0 +1,5 @@
+# 临时文件与本地杂物不入库
+tmp/
+.DS_Store
+Thumbs.db
+desktop.ini

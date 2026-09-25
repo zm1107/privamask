@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="128x128" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="description" content="数隐通（PrivaMask）— Windows 本地数据脱敏工具：批量处理 Excel（xls / xlsx）、CSV、Word（doc / docx）中的敏感信息，遮蔽 + 虚构双模式，位置级还原，全程本地零上传。">
+<meta property="og:title" content="数隐通 PrivaMask — 批量脱敏，留痕可还原">
+<meta property="og:description" content="Windows 本地数据脱敏工具：xls · xlsx · csv · doc · docx 批量脱敏，遮蔽 + 虚构双模式，位置级还原，映射规则导出，全程本地零上传。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://privamask.weibaba.fun/">
+<title>数隐通 PrivaMask — 批量脱敏，留痕可还原 | Windows 本地数据脱敏工具</title>
+<link rel="canonical" href="https://privamask.weibaba.fun/">
+<link rel="alternate" hreflang="zh-CN" href="https://privamask.weibaba.fun/">
+<link rel="alternate" hreflang="en" href="https://privamask.weibaba.fun/en/">
+<link rel="alternate" hreflang="x-default" href="https://privamask.weibaba.fun/">
+<meta property="og:image" content="https://privamask.weibaba.fun/assets/img/logo.png">
+<link rel="stylesheet" href="assets/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication",
+ "name":"PrivaMask 数隐通","operatingSystem":"Windows 10, Windows 11",
+ "applicationCategory":"SecurityApplication",
+ "url":"https://privamask.weibaba.fun/","softwareVersion":"1.0.0",
+ "inLanguage":["zh-CN","en"],
+ "description":"Local data masking tool for Windows: batch-masks sensitive data in Excel (xls/xlsx), CSV and Word (doc/docx) files with masking and fake-data modes, position-level restore and full offline processing.",
+ "offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},
+ "screenshot":"https://privamask.weibaba.fun/"}
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="container nav-inner">
+    <a class="brand" href="/"><img src="/assets/img/logo.png" alt="数隐通 PrivaMask">数隐通 <span class="dot">PrivaMask</span></a>
+    <div class="nav-links">
+      <a class="hide-sm" href="#workflow">脱敏流程</a>
+      <a class="hide-sm" href="#modes">双模式</a>
+      <a class="hide-sm" href="#restore">还原双通道</a>
+      <a class="hide-sm" href="#rules">规则管理</a>
+      <a class="hide-sm" href="#formats">支持格式</a>
+      <span class="lang-switch"><b>中文</b> · <a href="/en/" hreflang="en" lang="en">English</a></span>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <img class="hero-logo" src="/assets/img/logo.png" alt="数隐通 PrivaMask">
+    <h1>批量脱敏，<br>留痕<span class="key">可还原</span>。</h1>
+    <p class="pitch">数隐通（PrivaMask）是 Windows 本地数据脱敏工具：批量处理 Excel、CSV、Word 文件中的敏感信息。</p>
+    <p class="sub">全程在你的电脑上完成——不联网、不上传、零遥测。</p>
+    <div class="platform-pills">
+      <span class="pill">✔ 全程本地零上传</span>
+      <span class="pill">✔ xls · xlsx · csv · doc · docx</span>
+      <span class="pill">✔ 遮蔽 + 虚构双模式</span>
+      <span class="pill">✔ 位置级还原</span>
+      <span class="pill">✔ 映射规则导出</span>
+    </div>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="https://apps.microsoft.com/detail/9P75XG3KTHR8">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        从微软商店免费下载
+      </a>
+      <a class="btn btn-ghost" href="#workflow">看看怎么脱敏</a>
+    </div>
+    <div class="ver-card">
+      <span class="ver-badge">公开测试版 v1.0.0</span>
+      <p>60 天全功能、全免费。
+        <small>免费版与收费版规划中，分阶方案以后续商店页面为准。</small></p>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- ============ 功能区：四块 ============ -->
+  <section class="block" id="features">
+    <h2 class="title">脱敏、还原，一对互逆的完整闭环</h2>
+    <p class="lead">从批量处理到留痕回溯，每一步都在本机完成；每一处替换都可追溯到坐标、可还原为原文。</p>
+    <div class="feat-grid">
+
+      <div class="feat" id="workflow">
+        <div class="ico c1"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg></div>
+        <h3>脱敏流程</h3>
+        <p class="note">文件夹批量选择、递归扫描，多文件并行（默认 2 线程，可配置 1–8）。</p>
+        <ul class="flist">
+          <li><b>自动识别</b>：列名关键词 + 内容抽样正则双通道取并集，确认对话框中逐项可人工改判</li>
+          <li><b>结果一览</b>：逐文件展示状态、耗时、替换处数与输出路径</li>
+          <li><b>处理日志</b>：带时间戳逐条记录，可复制、清空、导出</li>
+          <li><b>输出有序</b>：按任务时间戳归档，保持原目录相对结构</li>
+        </ul>
+      </div>
+
+      <div class="feat" id="modes">
+        <div class="ico c2"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M4.9 4.9l14.2 14.2"/></svg></div>
+        <h3>遮蔽 + 虚构双模式</h3>
+        <p class="note">星号遮蔽为默认；假数据替换在同任务内「同值同假名」，保证统计口径一致。</p>
+        <ul class="flist">
+          <li><b>自定义遮蔽模板</b>：<code>#</code> 按位保留原文，其余字符原样输出</li>
+          <li><b>自定义列规则</b>：任意指定列配置脱敏规则</li>
+        </ul>
+        <div class="demo">
+          <span class="cm">模板</span> ###****#### <span class="arrow">→</span> 13812345678 <span class="arrow">→</span> 138****5678
+        </div>
+      </div>
+
+      <div class="feat" id="restore">
+        <div class="ico c3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg></div>
+        <h3>还原双通道</h3>
+        <p class="note">「从映射文件还原」与「从历史任务还原」两条通道并存。</p>
+        <ul class="flist">
+          <li><b>位置级映射</b>：按「文件 / 工作表 / 行 / 列」（Word 为段落与文本块位置）坐标写回原文，不受脱敏值冲突影响</li>
+          <li><b>还原前校验</b>：核对处理后文件 hash，文件被人为改动则告警并中止该文件还原</li>
+          <li><b>留痕开关</b>：默认开启；关闭留痕的任务不写映射表、不可还原（界面明示）</li>
+        </ul>
+      </div>
+
+      <div class="feat" id="rules">
+        <div class="ico c4"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg></div>
+        <h3>规则管理</h3>
+        <p class="note">规则存于本机 SQLite 数据库，界面化新增、修改、删除、启停。</p>
+        <ul class="flist">
+          <li><b>内置 7 类敏感字段</b>，默认提供、开箱即用</li>
+          <li><b>内置规则</b>可修改参数、不可删除</li>
+          <li><b>映射规则导出</b>：xlsx 映射文件可导出留存，用于还原与审计</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ 内置 7 类 ============ -->
+  <section class="block" id="builtin">
+    <h2 class="title">内置 7 类敏感字段</h2>
+    <p class="lead">默认勾选、开箱即用；再配合自定义列规则，覆盖业务中的个性化字段。</p>
+    <div class="tag-row">
+      <span class="tag">公司名称</span>
+      <span class="tag">人员名称</span>
+      <span class="tag">手机号码</span>
+      <span class="tag">账户号码</span>
+      <span class="tag">社会信用代码（纳税人识别号）</span>
+      <span class="tag">银行账号</span>
+      <span class="tag">身份证号</span>
+    </div>
+  </section>
+
+  <!-- ============ 支持格式 ============ -->
+  <section class="block" id="formats">
+    <h2 class="title">5 种格式，尽力保住原样</h2>
+    <p class="lead">Excel 保留格式与样式，Word 覆盖正文、表格、页眉页脚与文本框，CSV 保持原编码。</p>
+    <div class="fmt-grid">
+      <div class="fmt-chip">
+        <div class="f-ico f-xls"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/></svg></div>
+        <div><b>xlsx</b><small>完整保留格式与样式</small></div>
+      </div>
+      <div class="fmt-chip">
+        <div class="f-ico f-xls"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/></svg></div>
+        <div><b>xls</b><small>优先本机 Excel 保格式读写；无 Excel 时降级读取并输出 xlsx</small></div>
+      </div>
+      <div class="fmt-chip">
+        <div class="f-ico f-csv"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="16" y2="17"/></svg></div>
+        <div><b>csv</b><small>编码自动检测（UTF-8 / GBK / UTF-8-BOM），输出保持原编码</small></div>
+      </div>
+      <div class="fmt-chip">
+        <div class="f-ico f-word"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+        <div><b>doc</b><small>经本机 Word 转存后处理，输出 docx</small></div>
+      </div>
+      <div class="fmt-chip">
+        <div class="f-ico f-word"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+        <div><b>docx</b><small>处理正文、表格、页眉页脚、文本框</small></div>
+      </div>
+    </div>
+    <p class="table-note">* 公式单元格跳过，仅处理字面值。</p>
+  </section>
+
+  <!-- ============ 隐私承诺 ============ -->
+  <div class="pledge" id="privacy">
+    <h3>隐私承诺：全本地，零遥测</h3>
+    <p>数隐通的全部处理都在你自己的电脑上完成：无网络请求、无遥测、无统计、无账号、无 Cookie。
+    源文件只读不改，结果写入你指定的输出目录。详见<a href="/privacy/">隐私政策</a>。</p>
+  </div>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="cols">
+      <div style="max-width:320px">
+        <h4>数隐通 PrivaMask</h4>
+        <p>Windows 本地数据脱敏工具：批量处理 Excel、CSV、Word 中的敏感信息，留痕可还原。</p>
+      </div>
+      <div>
+        <h4>产品</h4>
+        <ul>
+          <li><a href="#workflow">脱敏流程</a></li>
+          <li><a href="#modes">双模式</a></li>
+          <li><a href="#restore">还原双通道</a></li>
+          <li><a href="https://apps.microsoft.com/detail/9P75XG3KTHR8">微软商店</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>支持</h4>
+        <ul>
+          <li>Bug 与功能建议：微软商店页面支持渠道</li>
+          <li>联系邮箱：<a href="mailto:privamask@weibaba.fun">privamask@weibaba.fun</a></li>
+          <li>GitHub：<a href="#">即将开放</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>法律</h4>
+        <ul>
+          <li><a href="/privacy/">隐私政策 / Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="legal">© 2026 Weibaba · 数隐通 PrivaMask · 本站为纯静态页面，不收集任何数据</p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="128x128" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="description" content="PrivaMask — a local data masking tool for Windows: batch-mask sensitive data in Excel (xls / xlsx), CSV and Word (doc / docx) files, with masking and fake-data modes, position-level restore, all fully offline.">
+<meta property="og:title" content="PrivaMask — Mask in bulk, restore with evidence">
+<meta property="og:description" content="Local data masking for Windows: xls · xlsx · csv · doc · docx, masking + fake-data modes, position-level restore, mapping export, 100% local with zero upload.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://privamask.weibaba.fun/en/">
+<title>PrivaMask — Bulk Data Masking, Traceable Restore | Local Masking Tool for Windows</title>
+<link rel="canonical" href="https://privamask.weibaba.fun/en/">
+<link rel="alternate" hreflang="zh-CN" href="https://privamask.weibaba.fun/">
+<link rel="alternate" hreflang="en" href="https://privamask.weibaba.fun/en/">
+<link rel="alternate" hreflang="x-default" href="https://privamask.weibaba.fun/">
+<meta property="og:image" content="https://privamask.weibaba.fun/assets/img/logo.png">
+<link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication",
+ "name":"PrivaMask","operatingSystem":"Windows 10, Windows 11",
+ "applicationCategory":"SecurityApplication",
+ "url":"https://privamask.weibaba.fun/","softwareVersion":"1.0.0",
+ "inLanguage":["zh-CN","en"],
+ "description":"Local data masking tool for Windows: batch-masks sensitive data in Excel (xls/xlsx), CSV and Word (doc/docx) files with masking and fake-data modes, position-level restore and full offline processing.",
+ "offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},
+ "screenshot":"https://privamask.weibaba.fun/en/"}
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="container nav-inner">
+    <a class="brand" href="/en/"><img src="/assets/img/logo.png" alt="PrivaMask">Priva<span class="dot">Mask</span></a>
+    <div class="nav-links">
+      <a class="hide-sm" href="#workflow">Workflow</a>
+      <a class="hide-sm" href="#modes">Two Modes</a>
+      <a class="hide-sm" href="#restore">Restore</a>
+      <a class="hide-sm" href="#rules">Rules</a>
+      <a class="hide-sm" href="#formats">Formats</a>
+      <span class="lang-switch"><a href="/" hreflang="zh-CN" lang="zh-CN">中文</a> · <b>English</b></span>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <img class="hero-logo" src="/assets/img/logo.png" alt="PrivaMask">
+    <h1>Mask in bulk.<br><span class="key">Restore</span> with evidence.</h1>
+    <p class="pitch">PrivaMask is a local data masking tool for Windows: batch-process sensitive data in Excel, CSV and Word files.</p>
+    <p class="sub">Everything happens on your computer — no network, no upload, no telemetry.</p>
+    <div class="platform-pills">
+      <span class="pill">✔ 100% local, zero upload</span>
+      <span class="pill">✔ xls · xlsx · csv · doc · docx</span>
+      <span class="pill">✔ Mask + fake-data modes</span>
+      <span class="pill">✔ Position-level restore</span>
+      <span class="pill">✔ Mapping export</span>
+    </div>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="https://apps.microsoft.com/detail/9P75XG3KTHR8">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Free download from Microsoft Store
+      </a>
+      <a class="btn btn-ghost" href="#workflow">See how it works</a>
+    </div>
+    <div class="ver-card">
+      <span class="ver-badge">Public Beta v1.0.0</span>
+      <p>Every feature, completely free for 60 days.
+        <small>Free and paid editions are in planning; details will follow on the Store listing.</small></p>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- ============ Features: four blocks ============ -->
+  <section class="block" id="features">
+    <h2 class="title">Masking and restore — one complete, reversible loop</h2>
+    <p class="lead">From batch processing to audited rollback, every step runs locally; every replacement is traceable to its coordinates and reversible to the original text.</p>
+    <div class="feat-grid">
+
+      <div class="feat" id="workflow">
+        <div class="ico c1"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg></div>
+        <h3>Masking workflow</h3>
+        <p class="note">Batch folder selection with recursive scan; multi-file parallel processing (2 threads by default, configurable 1–8).</p>
+        <ul class="flist">
+          <li><b>Auto detection</b>: column-keyword + content-sampling dual channel, merged; every result can be overridden in the confirmation dialog</li>
+          <li><b>Results at a glance</b>: per-file status, elapsed time, replacement count and output path</li>
+          <li><b>Logs</b>: timestamped entries you can copy, clear and export</li>
+          <li><b>Ordered output</b>: archived per task timestamp, original folder structure preserved</li>
+        </ul>
+      </div>
+
+      <div class="feat" id="modes">
+        <div class="ico c2"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M4.9 4.9l14.2 14.2"/></svg></div>
+        <h3>Mask + fake-data modes</h3>
+        <p class="note">Asterisk masking is the default; fake-data replacement keeps "one original value = one fake value" within a task, so statistics stay consistent.</p>
+        <ul class="flist">
+          <li><b>Custom masking template</b>: <code>#</code> keeps the original character in place; other characters are output as-is</li>
+          <li><b>Custom column rules</b>: configure masking for any column you choose</li>
+        </ul>
+        <div class="demo">
+          <span class="cm">Template</span> ###****#### <span class="arrow">→</span> 13812345678 <span class="arrow">→</span> 138****5678
+        </div>
+      </div>
+
+      <div class="feat" id="restore">
+        <div class="ico c3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg></div>
+        <h3>Two restore channels</h3>
+        <p class="note">"Restore from mapping file" and "Restore from task history" work side by side.</p>
+        <ul class="flist">
+          <li><b>Position-level mapping</b>: originals are written back by coordinates — file / sheet / row / column (paragraph and text-block positions in Word) — unaffected by masked-value collisions</li>
+          <li><b>Pre-restore check</b>: the processed file's hash is verified; if the file was altered manually, that file's restore is aborted with a warning</li>
+          <li><b>Audit switch</b>: on by default; tasks processed with auditing off keep no mapping and cannot be restored (clearly indicated in the app)</li>
+        </ul>
+      </div>
+
+      <div class="feat" id="rules">
+        <div class="ico c4"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg></div>
+        <h3>Rule management</h3>
+        <p class="note">Rules persist in a local SQLite database; add, edit, delete and toggle them in the UI.</p>
+        <ul class="flist">
+          <li><b>7 built-in sensitive-field types</b>, enabled out of the box</li>
+          <li><b>Built-in rules</b> allow parameter changes but cannot be deleted</li>
+          <li><b>Mapping export</b>: export the mapping workbook (xlsx) for restore and audit</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ Built-in 7 types ============ -->
+  <section class="block" id="builtin">
+    <h2 class="title">7 built-in sensitive-field types</h2>
+    <p class="lead">Checked and ready by default; combine them with custom column rules to cover your business-specific fields.</p>
+    <div class="tag-row">
+      <span class="tag">Company names</span>
+      <span class="tag">Person names</span>
+      <span class="tag">Mobile numbers</span>
+      <span class="tag">Account numbers</span>
+      <span class="tag">Unified social credit codes</span>
+      <span class="tag">Bank accounts</span>
+      <span class="tag">ID card numbers</span>
+    </div>
+  </section>
+
+  <!-- ============ Formats ============ -->
+  <section class="block" id="formats">
+    <h2 class="title">5 formats, kept as close to the original as possible</h2>
+    <p class="lead">Excel keeps formats and styles; Word covers body text, tables, headers/footers and text boxes; CSV keeps its original encoding.</p>
+    <div class="fmt-grid">
+      <div class="fmt-chip">
+        <div class="f-ico f-xls"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/></svg></div>
+        <div><b>xlsx</b><small>Formats and styles fully preserved</small></div>
+      </div>
+      <div class="fmt-chip">
+        <div class="f-ico f-xls"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/></svg></div>
+        <div><b>xls</b><small>Format-safe via local Excel; falls back to reading only and outputs xlsx without Excel</small></div>
+      </div>
+      <div class="fmt-chip">
+        <div class="f-ico f-csv"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="16" y2="17"/></svg></div>
+        <div><b>csv</b><small>Encoding auto-detected (UTF-8 / GBK / UTF-8-BOM), preserved on output</small></div>
+      </div>
+      <div class="fmt-chip">
+        <div class="f-ico f-word"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+        <div><b>doc</b><small>Processed via a local Word conversion, output as docx</small></div>
+      </div>
+      <div class="fmt-chip">
+        <div class="f-ico f-word"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+        <div><b>docx</b><small>Body text, tables, headers/footers and text boxes</small></div>
+      </div>
+    </div>
+    <p class="table-note">* Formula cells are skipped; only literal values are processed.</p>
+  </section>
+
+  <!-- ============ Privacy pledge ============ -->
+  <div class="pledge" id="privacy">
+    <h3>Privacy pledge: all local, zero telemetry</h3>
+    <p>Every PrivaMask operation runs on your own computer: no network requests, no telemetry, no analytics,
+    no accounts, no cookies. Source files are read-only; results go to the output folder you choose.
+    See the <a href="/privacy/">Privacy Policy</a>.</p>
+  </div>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="cols">
+      <div style="max-width:320px">
+        <h4>PrivaMask</h4>
+        <p>A local data masking tool for Windows: batch-mask sensitive data in Excel, CSV and Word files, with traceable restore.</p>
+      </div>
+      <div>
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#workflow">Workflow</a></li>
+          <li><a href="#modes">Two modes</a></li>
+          <li><a href="#restore">Restore channels</a></li>
+          <li><a href="https://apps.microsoft.com/detail/9P75XG3KTHR8">Microsoft Store</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li>Bugs &amp; suggestions: the support channel on the Microsoft Store listing</li>
+          <li>Email: <a href="mailto:privamask@weibaba.fun">privamask@weibaba.fun</a></li>
+          <li>GitHub: <a href="#">coming soon</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="/privacy/">Privacy Policy / 隐私政策</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="legal">© 2026 Weibaba · PrivaMask · This site is purely static and collects no data</p>
+  </div>
+</footer>
+
+</body>
+</html>
