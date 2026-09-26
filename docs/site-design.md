@@ -11,7 +11,7 @@
 同作者的 PassGone 与 ExifMate 网站仓库（二者仅作只读参考，文案与数据不复制），
 品牌视觉自应用源图标派生。
 
-- **域名与口径**：`https://privamask.weibaba.fun`；反馈邮箱 `privamask@weibaba.fun`；© 2026 Weibaba（全局规范第 12 条）。
+- **域名与口径**：`https://privamask.weibaba.fun`；反馈邮箱 `feedback@weibaba.fun`；© 2026 Weibaba（全局规范第 12 条）。
 - **发布方式**：公开 GitHub 仓库（`privamask`）→ Cloudflare Pages 静态托管，生产分支 `main`，仓库根即站点根。
 - **隐私红线（硬性）**：纯静态、零追踪——无统计/分析、无任何外部请求（无 CDN 字体、无外链图片/JS）、
   无 Cookie、无表单、无服务端代码；仓库内不得出现用户数据、操作日志、凭据或本机路径。
@@ -120,3 +120,4 @@ README.md AGENTS.md docs/site-design.md .gitignore
 > 注：提交信息仅含版本号，改动说明只记录于本表。
 
 | v1.0.1 | 2026-09-26 | README 致谢表 PyQt6→PySide6（LGPL-3.0），随应用框架迁移同步（应用仓库 ADR-014） |
+| v1.0.2 | 2026-09-26 | 反馈邮箱统一为 feedback@weibaba.fun（全局规范第 12 条修订），全站与隐私页同步 |
