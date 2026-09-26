@@ -56,7 +56,7 @@ Windows 本地数据脱敏工具：批量处理 Excel、CSV、Word 文件中的�
 
 | 项目 | 用途 | 许可证 |
 |---|---|---|
-| Python / PyQt6 | 运行时与图形界面 | PSF / GPL-3.0 |
+| Python / PySide6 | 运行时与图形界面 | PSF / LGPL-3.0 |
 | openpyxl / xlrd | xlsx / xls 读写 | MIT |
 | python-docx | docx 处理 | MIT |
 | pywin32 | Word / Excel COM 桥接 | PSF |

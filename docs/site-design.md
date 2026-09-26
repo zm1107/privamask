@@ -118,3 +118,5 @@ README.md AGENTS.md docs/site-design.md .gitignore
 | 2026-09-25 | v1.0.0 | 首版上线：中文主站 `index.html`（Hero + 功能四块 + 7 类字段 + 格式 + 隐私承诺 + 页脚）；英文版 `en/index.html`（逐节对应）；隐私政策 `privacy/index.html`（中英双语）；全站样式 `assets/style.css`；品牌图 `assets/img/logo.png`、`assets/img/logo-170.png`；`favicon.ico`、`favicon.png`、`apple-touch-icon.png`；`robots.txt`、`sitemap.xml`、`_headers`、`.well-known/security.txt`、`.gitignore`；`README.md`、`AGENTS.md`、本文档 |
 
 > 注：提交信息仅含版本号，改动说明只记录于本表。
+
+| v1.0.1 | 2026-09-26 | README 致谢表 PyQt6→PySide6（LGPL-3.0），随应用框架迁移同步（应用仓库 ADR-014） |
